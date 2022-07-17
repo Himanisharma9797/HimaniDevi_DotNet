@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Karma">
+    <style>
+        body {
+            font-family: "Lato", sans-serif;
+        }
+
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            right: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 60px;
+        }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
+
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+        screen and (max-height: 450px) {
+            .sidenav
+
+        {
+            padding-top: 15px;
+        }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="w3-row-padding w3-padding-16 w3-center" id="food">
+        <div class="w3-quarter" style="border:thick; border-color:black; background-color:aliceblue; height:570px;">
+            <img src="~/Csharp.png" alt="Career site for engineering" style="width:100%; height:220px">
+            <a href="https://dotnet.microsoft.com/en-us/learn/csharp"><h3>Learn C#</h3></a>
+            <p> C# is an object-oriented, component-oriented programming language. C# provides language constructs to directly support these concepts, making C# a natural language in which to create and use software components. Since its origin, C# has added features to support new workloads and emerging software design practices. At its core, C# is an object-oriented language. You define types and their behavior. </p>
+        </div>
+        <div class="w3-quarter" style="border: thick; border-color: black; background-color: beige; height: 570px;">
+            <img src="~/DotNet.png" alt="Majors" style="width:100%; height:220px">
+            <a href="https://dotnet.microsoft.com/en-us/learn"><h3> Learn Dot Net</h3></a>
+            <p>
+                . NET (pronounced dot net) is a framework that provides a programming guidelines that can be used to develop a wide range of applications–––from web to mobile to Windows-based applications. The . NET framework can work with several programming languages such as C#, VB.NET, C++ and F#.
+
+            </p>
+        </div>
+        <div class="w3-quarter" style="border: thick; border-color: black; background-color:aliceblue; height: 570px;">
+            <img src="~/CoreImage.png" alt="Resume" style="width:100%; height:220px">
+            <a href="https://docs.microsoft.com/en-us/aspnet/core/introduction-to-aspnet-core?view=aspnetcore-6.0"> <h3>Learn Dot Net Core</h3></a>
+            <p> ASP.NET Core is a cross-platform, high-performance, open-source framework for building modern, cloud-enabled, Internet-connected apps. With ASP.NET Core, you can: Build web apps and services, Internet of Things (IoT) apps, and mobile backends. Use your favorite development tools on Windows, macOS, and Linux</p>
+        
+        </div>
+        <div class="w3-quarter" style="border: thick; border-color: black; background-color: beige; height: 570px;">
+            <img src="~/Difference.jpg" alt="Top Technologies" style="width:100%; height:220px">
+            <a href="https://fullscale.io/blog/net-core-net-framework-differences/"><h3>Difference Between Dot Net and Dot Net Core</h3></a>
+            <p>NET Framework is a platform for . NET applications on Windows whereas, NET Core is the latest version of the . NET Framework which is a cross-platform and open-source framework optimized for modern app needs and developer workflows.</p>
+        </div>
+    </div>
+
+
+
+    <script>
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+
+</body>
+</html>

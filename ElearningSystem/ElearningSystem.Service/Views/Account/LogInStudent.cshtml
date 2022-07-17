@@ -1,0 +1,41 @@
+﻿@model ElearningSystem.DataLayer.Models.LogInModel
+
+@{
+    ViewData["Title"] = "LogInStudent";
+}
+
+<h1>Log In Student</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Log In Admin</title>
+    <link rel="stylesheet" href="/css/StyleSheet2.css" />
+</head>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="LogInStudent">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Log in" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

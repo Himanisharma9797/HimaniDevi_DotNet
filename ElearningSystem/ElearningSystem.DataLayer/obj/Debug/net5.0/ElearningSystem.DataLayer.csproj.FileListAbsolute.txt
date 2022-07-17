@@ -1,0 +1,15 @@
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\bin\Debug\net5.0\ElearningSystem.DataLayer.deps.json
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\bin\Debug\net5.0\ElearningSystem.DataLayer.runtimeconfig.json
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\bin\Debug\net5.0\ElearningSystem.DataLayer.runtimeconfig.dev.json
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\bin\Debug\net5.0\ElearningSystem.DataLayer.dll
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\bin\Debug\net5.0\ref\ElearningSystem.DataLayer.dll
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\bin\Debug\net5.0\ElearningSystem.DataLayer.pdb
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\obj\Debug\net5.0\ElearningSystem.DataLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\obj\Debug\net5.0\ElearningSystem.DataLayer.AssemblyInfoInputs.cache
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\obj\Debug\net5.0\ElearningSystem.DataLayer.AssemblyInfo.cs
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\obj\Debug\net5.0\ElearningSystem.DataLayer.csproj.CoreCompileInputs.cache
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\obj\Debug\net5.0\ElearningSystem.DataLayer.dll
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\obj\Debug\net5.0\ref\ElearningSystem.DataLayer.dll
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\obj\Debug\net5.0\ElearningSystem.DataLayer.pdb
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\obj\Debug\net5.0\ElearningSystem.DataLayer.genruntimeconfig.cache
+C:\Users\himani.devi\Desktop\ElearningSystem\ElearningSystem.DataLayer\obj\Debug\net5.0\ElearningSystem.DataLayer.csproj.AssemblyReference.cache

@@ -1,0 +1,28 @@
+﻿@{
+        @model ElearningSystem.DataLayer.Models.Upload.FileClass
+    }
+        <center>
+      <div class="container" style="background-size:cover; background-color:lavender; height:605px">
+            <form method="post" enctype="multipart/form-data" asp-controller="Student" asp-action="Projects">
+                <input type="file" name="imgfile" />
+                <input type="submit" value="Upload"} />
+
+                <hr />
+                <table class="table table-bordered table-primary table-hover">
+                    <tr>
+                        <th> File Name</th>
+                        <th>Action</th>
+                    </tr>
+                    @foreach (var item in Model.FileImage)
+                    {
+        <tr>
+            <td>
+                @item.Name
+            </td>
+            <td><a class="btn btn-outline-danger" href="@Url.Action("Delete", "Student",new { imgdel = @item.Name})">Delete </a>
+            <a class="btn btn-outline-success" href="@Url.Action("Download", "Student", new { fileName = @item.Name})">Download</a></td>
+        </tr>            }
+                </table>
+            </form>
+          </div>
+        </center>

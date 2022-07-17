@@ -1,0 +1,45 @@
+﻿@model IEnumerable<ElearningSystem.DataLayer.Models.StudentModel>
+@{
+    ViewData["Title"] = "DisplayStudent";
+}
+<center>
+    <h2>Directory of Students </h2>
+</center>
+<div class="container" style="background-size:cover; background-color:lavender; height:605px">
+    <br />
+    <table class="table">
+        <thead>
+            <tr>
+                
+                <th>
+                    @Html.DisplayNameFor(model => model.StudentFirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StudentLastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.StudentEmail)
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StudentFirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StudentLastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.StudentEmail)
+                    </td>
+                  
+                </tr>
+            }
+</div>
+
+        </tbody>
+    </table>

@@ -1,0 +1,52 @@
+﻿@model IEnumerable<ElearningSystem.DataLayer.Models.FacultyModel>
+
+@{
+    ViewData["Title"] = "DisplayFaculty";
+}
+<center>
+    <h2>List of Faculty </h2>
+</center>
+</br>
+<div class="container" style="background-size:cover; background-color:lavender; height:605px">
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.FacultyId)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FacultyFirstName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FacultyLastName)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FacultyEmail)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FacultyId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FacultyFirstName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FacultyLastName)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FacultyEmail)
+                    </td>
+                    <td>
+                        <a class="btn btn-danger" href="@Url.Action("DeleteFaculty", "Faculty", new { facultyId= item.FacultyId})"> Delete </a>
+                        @*@Html.ActionLink("Delete", "DeleteFaculty", new { facultyId = item.FacultyId })*@
+                    </td>
+                </tr>
+             }
+        </tbody>
+    </table>
